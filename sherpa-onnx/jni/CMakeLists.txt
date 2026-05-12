@@ -31,6 +31,7 @@ set(sources
   voice-activity-detector.cc
   wave-reader.cc
   wave-writer.cc
+  whisper-classifier.cc
 )
 
 if(SHERPA_ONNX_ENABLE_TTS)
