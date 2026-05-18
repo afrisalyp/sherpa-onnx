@@ -1,3 +1,9 @@
+<div align="center">
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/k2-fsa/sherpa-onnx)
+
+</div>
+
  ### Supported functions
 
 |Speech recognition| [Speech synthesis][tts-url] | [Source separation][ss-url] |
@@ -299,6 +305,15 @@ https://k2-fsa.github.io/sherpa/social-groups.html
 for 新一代 Kaldi **微信交流群** and **QQ 交流群**.
 
 ## Projects using sherpa-onnx
+
+### [Sherpa Voice / @siteed/sherpa-onnx.rn](https://github.com/deeeed/audiolab)
+
+> React Native wrapper and demo app for validating sherpa-onnx on iOS,
+> Android, and Web, including ASR, TTS, VAD, KWS, speaker ID, diarization,
+> language ID, punctuation, audio tagging, and speech enhancement.
+
+- [NPM package](https://www.npmjs.com/package/@siteed/sherpa-onnx.rn)
+- [Live demo](https://deeeed.github.io/audiolab/sherpa-voice/)
 
 ### [Speed of Sound](https://github.com/zugaldia/speedofsound)
 

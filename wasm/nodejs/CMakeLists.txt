@@ -138,6 +138,8 @@ string(APPEND MY_FLAGS " -sNODERAWFS=1 ")
 string(APPEND MY_FLAGS " -sEXPORTED_RUNTIME_METHODS=['ccall','stringToUTF8','setValue','getValue','lengthBytesUTF8','UTF8ToString','HEAPU8','HEAP16','HEAP32','HEAPU32','HEAPF32','HEAPF64','addFunction','removeFunction'] ")
 
 string(APPEND MY_FLAGS " -sMODULARIZE=1 -sWASM_ASYNC_COMPILATION=0 ")
+string(APPEND MY_FLAGS " -fexceptions ")
+string(APPEND MY_FLAGS " -sPTHREAD_POOL_SIZE=4 ")
 
 message(STATUS "MY_FLAGS: ${MY_FLAGS}")
 

@@ -28,7 +28,7 @@ project(sherpa-onnx)
 # Remember to update
 # ./CHANGELOG.md
 # ./new-release.sh
-set(SHERPA_ONNX_VERSION "1.13.1")
+set(SHERPA_ONNX_VERSION "1.13.2")
 
 # Disable warning about
 #
@@ -337,7 +337,7 @@ if(SHERPA_ONNX_ENABLE_WASM)
   # that pre-spawns a worker pool. Browsers require COOP/COEP headers to
   # expose SharedArrayBuffer; wasm/serve.py is provided for that.
   string(APPEND CMAKE_C_FLAGS " -pthread")
-  string(APPEND CMAKE_CXX_FLAGS " -pthread")
+  string(APPEND CMAKE_CXX_FLAGS " -pthread -fexceptions")
 endif()
 
 if(SHERPA_ONNX_ENABLE_WASM_KWS)
